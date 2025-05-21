@@ -29,7 +29,7 @@
 
         def {
             bindings = <&tog 0>;
-            key-positions = <38 24>;
+            key-positions = <12 37>;
         };
     };
 
