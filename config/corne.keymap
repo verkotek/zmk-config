@@ -23,12 +23,12 @@
         };
 
         down {
-            bindings = <&mo 2>;
+            bindings = <&tog 2>;
             key-positions = <39 12>;
         };
 
         def {
-            bindings = <&mo 0>;
+            bindings = <&tog 0>;
             key-positions = <38 24>;
         };
     };
@@ -45,8 +45,8 @@
 
             bindings = <
 &bt BT_CLR      &kp Q  &kp W  &kp F                  &kp P    &kp G        &kp J    &kp L      &kp U         &kp Y    &kp P                &kp BACKSPACE
-&kp LEFT_SHIFT  &kp A  &kp R  &kp S                  &kp T    &kp D        &kp H    &kp N      &kp E         &kp I    &kp O                &mt LEFT_BRACE RIGHT_BRACE
-&kp LCTRL       &kp Z  &kp X  &kp C                  &kp V    &kp B        &kp K    &kp M      &kp COMMA     &kp DOT  &mt SLASH BACKSLASH  &mt LEFT_PARENTHESIS RIGHT_PARENTHESIS
+&kp LEFT_SHIFT  &kp A  &kp R  &kp S                  &kp T    &kp D        &kp H    &kp N      &kp E         &kp I    &kp O                &mt RIGHT_BRACE LEFT_BRACE
+&kp LCTRL       &kp Z  &kp X  &kp C                  &kp V    &kp B        &kp K    &kp M      &kp COMMA     &kp DOT  &mt SLASH BACKSLASH  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS
                               &mt LEFT_WIN LEFT_ALT  &kp TAB  &kp SPACE    &kp ESC  &kp ENTER  &mt HOME END
             >;
         };
