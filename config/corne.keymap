@@ -3,6 +3,13 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    behaviors {
+        mt {
+            compatible = "zmk,behavior-hold-tap";
+            hold-tap-ms = <150>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -34,4 +41,3 @@
         };
     };
 };
-                                                        
