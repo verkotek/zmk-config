@@ -18,10 +18,10 @@
 
         floor {
             bindings = <
-&bt BT_CLR  &kp N1    &kp N2    &kp N3             &kp N4            &kp N5             &kp N6      &kp N7             &kp N8             &kp N9            &kp N0            &kp DELETE
-&trans      &mkp MB3  &mkp MB2  &mkp MB1           &msc MOVE_Y(-10)  &msc MOVE_Y(10)    &trans      &kp LEFT           &kp DOWN           &kp UP            &kp RIGHT         &kp C_MUTE
-&trans      &trans    &trans    &trans             &msc MOVE_X(-5)   &msc MOVE_X(5)     &kp LA(F4)  &mmv MOVE_Y(-100)  &mmv MOVE_Y(-100)  &mmv MOVE_Y(100)  &mmv MOVE_X(100)  &kp C_VOLUME_UP
-                                &kp C_VOLUME_DOWN  &trans            &trans             &trans      &trans             &trans
+&bt BT_CLR  &kp N1    &kp N2    &kp N3             &kp N4            &kp N5             &kp N6           &kp N7             &kp N8             &kp N9            &kp N0            &kp DELETE
+&trans      &mkp MB3  &mkp MB2  &mkp MB1           &msc MOVE_Y(-20)  &msc MOVE_Y(20)    &mt LC(C) LC(V)  &kp LEFT           &kp DOWN           &kp UP            &kp RIGHT         &kp C_MUTE
+&trans      &trans    &trans    &trans             &msc MOVE_X(-15)  &msc MOVE_X(15)    &kp LA(F4)       &mmv MOVE_X(-300)  &mmv MOVE_Y(-300)  &mmv MOVE_Y(300)  &mmv MOVE_X(300)  &kp C_VOLUME_UP
+                                &kp C_VOLUME_DOWN  &trans            &trans             &trans           &trans             &trans
             >;
         };
 
