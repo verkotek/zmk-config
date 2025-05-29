@@ -17,10 +17,10 @@
 
         floor {
             bindings = <
-&bt BT_CLR  &kp N1  &kp N2  &kp N3             &kp N4  &kp N5    &kp N6  &kp N7    &kp N8                &kp N9              &kp N0     &kp DELETE
-&trans      &trans  &trans  &trans             &trans  &trans    &trans  &kp LEFT  &kp DOWN              &kp UP              &kp RIGHT  &kp C_MUTE
-&trans      &trans  &trans  &trans             &trans  &trans    &trans  &trans    &kp C_AC_SCROLL_DOWN  &kp C_AC_SCROLL_UP  &trans     &kp C_VOLUME_UP
-                            &kp C_VOLUME_DOWN  &trans  &trans    &trans  &trans    &trans
+&bt BT_CLR  &kp N1  &kp N2  &kp N3             &kp N4  &kp N5    &kp N6      &kp N7    &kp N8                &kp N9              &kp N0     &kp DELETE
+&trans      &trans  &trans  &trans             &trans  &trans    &trans      &kp LEFT  &kp DOWN              &kp UP              &kp RIGHT  &kp C_MUTE
+&trans      &trans  &trans  &trans             &trans  &trans    &kp LA(F4)  &trans    &kp C_AC_SCROLL_DOWN  &kp C_AC_SCROLL_UP  &trans     &kp C_VOLUME_UP
+                            &kp C_VOLUME_DOWN  &trans  &trans    &trans      &trans    &trans
             >;
         };
 
