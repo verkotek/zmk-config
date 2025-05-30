@@ -27,10 +27,10 @@
 
         cheing {
             bindings = <
-&trans  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACE LEFT_BRACE  &mt RIGHT_BRACKET LEFT_BRACKET  &kp PIPE  &mt UNDERSCORE MINUS    &kp HOME  &kp PG_DN          &kp PG_UP  &kp END  &trans   &kp LEFT_ALT
-&trans  &mt MINUS PLUS                          &mt SLASH ASTERISK          &mt EXCLAMATION EQUAL           &trans    &trans                  &kp SQT   &kp DOUBLE_QUOTES  &kp GRAVE  &kp F11  &kp F12  &trans
-&trans  &kp F1                                  &kp F2                      &kp F3                          &kp F4    &kp F5                  &kp F6    &kp F7             &kp F8     &kp F9   &kp F10  &trans
-                                                                            &kp PRINTSCREEN                 &trans    &trans                  &trans    &trans             &tog 3
+&trans  &mt LA(F1) F1   &mt LA(F2) F2       &mt LA(F3) F3          &mt LA(F4) F4       &mt LA(F5) F5      &mt LA(F6) F6               &mt LA(F7) F7                           &mt LA(F8) F8                   &mt LA(F9) F9    &mt LA(F10) F10  &trans
+&trans  &mt MINUS PLUS  &mt SLASH ASTERISK  &mt EXCLAMATION EQUAL  &mt AMPERSAND PIPE  &mt TILDE CARET    &mt RIGHT_BRACE LEFT_BRACE  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACKET LEFT_BRACKET  &mt LA(F11) F11  &mt LA(F12) F12  &mt GREATER_THAN LESS_THAN
+&trans  &kp HOME        &kp PG_DN           &kp PG_UP              &kp END             &kp GRAVE          &mt DOUBLE_QUOTES SQT       &trans                                  &trans                          &trans           &trans           &trans
+                                            &kp PRINTSCREEN        &trans              &kp UNDERSCORE     &trans                      &trans                                  &tog 3
             >;
         };
 
@@ -39,7 +39,7 @@
 &trans  &trans  &trans  &trans        &trans  &trans    &trans  &trans    &trans    &trans  &trans     &trans
 &trans  &trans  &trans  &trans        &trans  &trans    &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
 &trans  &trans  &trans  &trans        &trans  &trans    &trans  &trans    &trans    &trans  &trans     &trans
-                        &kp LEFT_ALT  &trans  &trans    &trans  &trans    &tog 3
+                        &kp LEFT_ALT  &trans  &trans    &trans  &trans    &tog 0
             >;
         };
     };
