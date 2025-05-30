@@ -39,7 +39,7 @@
 &trans  &trans  &trans  &trans        &trans  &trans    &trans  &trans    &trans    &trans  &trans     &trans
 &trans  &trans  &trans  &trans        &trans  &trans    &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
 &trans  &trans  &trans  &trans        &trans  &trans    &trans  &trans    &trans    &trans  &trans     &trans
-                        &kp LEFT_ALT  &trans  &trans    &trans  &trans    &tog 0
+                        &kp LEFT_ALT  &trans  &trans    &trans  &trans    &tog 3
             >;
         };
     };
